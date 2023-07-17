@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tab">
+        <div id="London" class="tabcontent">
+            <h3>1F</h3>
+           <img src="" alt="">
+        </div>
+        <div id="Paris" class="tabcontent">
+            <h3>2F</h3>
+            <p>파리는 프랑스의 도시입니다.</p>
+        </div>
+        <div id="Tokyo" class="tabcontent">
+            <h3>3F</h3>
+            <p>도쿄는 일본의 도시입니다.</p>
+        </div>
+        <div id="Oslo" class="tabcontent">
+            <h3>4F</h3>
+            <p>오슬로는 노르웨이의 도시입니다.</p>
+        </div>
+
+        <button class="tablink" id="defaultOpen" onclick="openCity('London',this,'red')">1F</button>
+        <button class="tablink" onclick="openCity('Paris',this,'green')">2F</button>
+        <button class="tablink" onclick="openCity('Tokyo',this,'blue')">3F</button>
+        <button class="tablink" onclick="openCity('Oslo',this,'orange')">4F</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+</head>
+<body>
+    <div class="slideshow-container" id="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/22/biZ45om5oL6st3YOHbVVYcx5uE1JBwx0_380.jpg" alt="이미지">
+            <div class="text">스파이더맨1</div>
+        </div><!-- //mySlides -->
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/22/YowDhBk8jyW3Ucal2WdSGr4JmHIhut8w_380.jpg" alt="이미지">
+            <div class="text">스파이더맨2</div>
+        </div><!-- //mySlides -->
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/22/hYa82q9LEZs6dhaTqxKkRRTt87tSYsAf_380.jpg" alt="이미지">
+            <div class="text">스파이더맨3</div>
+        </div><!-- //mySlides -->
+
+        <a href="#" class="prev" onclick="plusSlides(-1)">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a href="#" class="next" onclick="plusSlides(1)">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

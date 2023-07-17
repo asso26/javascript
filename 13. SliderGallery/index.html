@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+</head>
+<body>
+    <h2>Slider Gallary</h2>
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext">1/6</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/06/08/in7F2hulz6NEcp44ib6K0JSzVEkkPzJv_1100.jpg" alt="">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">2/6</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/17/f9E9uDyLQ2LM9NOa7r0MSHYxrgm7LpMu_1100.jpg" alt="">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">3/6</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/22/biZ45om5oL6st3YOHbVVYcx5uE1JBwx0_1100.jpg" alt="">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">4/6</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/22/YowDhBk8jyW3Ucal2WdSGr4JmHIhut8w_1100.jpg" alt="">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">5/6</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/22/SOhwBk4aeAHSZ0mbdpKM4JVCDkQroGfz_1100.jpg" alt="">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">6/6</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/22/e0zBIVEIm3P1JzYOLGbYut3vxcECKSBI_1100.jpg" alt="">
+        </div>
+
+        <a href="#" class="prev" onclick="plusSlides(-1)">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a href="#" class="next" onclick="plusSlides(1)">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="https://img.megabox.co.kr/SharedImg/2023/06/08/in7F2hulz6NEcp44ib6K0JSzVEkkPzJv_1100.jpg" alt=""
+            onclick="currentSlide(1)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="https://img.megabox.co.kr/SharedImg/2023/05/17/f9E9uDyLQ2LM9NOa7r0MSHYxrgm7LpMu_1100.jpg" alt=""
+            onclick="currentSlide(2)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="https://img.megabox.co.kr/SharedImg/2023/05/22/biZ45om5oL6st3YOHbVVYcx5uE1JBwx0_1100.jpg" alt=""
+            onclick="currentSlide(3)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="https://img.megabox.co.kr/SharedImg/2023/05/22/YowDhBk8jyW3Ucal2WdSGr4JmHIhut8w_1100.jpg" alt=""
+            onclick="currentSlide(4)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="https://img.megabox.co.kr/SharedImg/2023/05/22/SOhwBk4aeAHSZ0mbdpKM4JVCDkQroGfz_1100.jpg" alt=""
+            onclick="currentSlide(5)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="https://img.megabox.co.kr/SharedImg/2023/05/22/e0zBIVEIm3P1JzYOLGbYut3vxcECKSBI_1100.jpg" alt=""
+            onclick="currentSlide(6)">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.container {
+  width: 100%; /* 컨테이너의 너비를 100%로 설정 */
+  height: 100vh; /* 컨테이너의 높이를 화면 높이와 동일하게 설정 */
+  overflow-x: scroll; /* 가로 스크롤을 활성화 */
+}
+
+.content {
+  width: 1000%; /* 가로로 이동할 내용의 너비를 200%로 설정 */
+  height: 100%; /* 가로로 이동할 내용의 높이를 컨테이너의 높이와 동일하게 설정 */
+  white-space: nowrap; /* 내용이 줄바꿈되지 않고 한 줄에 표시되도록 설정 */
+  background-color:gray;
+}
+
+.content > div {
+  display: inline-block; /* 가로로 정렬하기 위해 inline-block으로 설정 */
+  width: 50%; /* 각 내용의 너비를 50%로 설정 (2개의 내용을 가로로 이동하기 위해) */
+  height: 100%; /* 각 내용의 높이를 컨테이너의 높이와 동일하게 설정 */
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <canvas id="myCanvas" width="400" height="400"></canvas> 
+
+
+
+
+  <script>
+    //캔버스 요소 가져오기(필수)
+    let canvas = document.getElementById("myCanvas");
+    let context=canvas.getContext('2d');
+
+    //이미지생성
+    //let image=new Image();//이미지태그생성
+    let image=document.createElement('img');//이미지태그만들기
+    image.src='https://blog.kakaocdn.net/dn/nRIpT/btqIM6RBgPE/YXKz3S8hGtLKuhyp5MOkO1/img.jpg';
+    
+    //context.drawImage(image,x,y,width,height) 
+    context.drawImage(image,0,0,400,400) 
+
+  </script>
+</body>
+
+</html>
